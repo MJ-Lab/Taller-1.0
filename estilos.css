@@ -74,7 +74,8 @@ nav ul li a{
 	position: relative;
 }
 .section article{
-	background-image: url(auto4.png);
+	background: black;
+	background-image: url(auto.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
