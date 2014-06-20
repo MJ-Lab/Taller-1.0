@@ -21,7 +21,7 @@ header{
 }
 nav{
 	background: black;
-	background-image: url(Logoboton2b.png);
+	background-image: url(Logoboton2c.png);
 	background-repeat: no-repeat;
 	background-position: 0% 45%;
 	border-bottom: solid 4px darkred;
@@ -84,7 +84,7 @@ nav ul li a{
 	position: relative;
 }
 .section article{
-	background-image: url(auto.png);
+	background-image: url(auto5.png);
 	background-position: 50% 60%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
