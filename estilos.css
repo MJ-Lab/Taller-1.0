@@ -98,7 +98,7 @@ nav ul li a{
 	position: relative;
 }
 .section article{
-	background-image: url(auto5.png);
+	background-image: url(Auto5.png);
 	background-position: 50% 60%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
@@ -106,6 +106,7 @@ nav ul li a{
 	border-bottom: 0.3em solid black;
 	height: 36.7em;
 	margin: 0 19.5%;
+	position: absolute;
 	width: 60%;
 }
 .section article p{
@@ -119,3 +120,4 @@ nav ul li a{
 nav ul li a:hover{
 	color: black;
 }
+
