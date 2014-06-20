@@ -2,7 +2,9 @@ a{
 	margin: 0px;
 }
 body{
-	background: #444444;
+	background-image: url(metal.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
 	font-size: 18px;
 }
 footer{

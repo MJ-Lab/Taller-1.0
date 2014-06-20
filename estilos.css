@@ -3,7 +3,9 @@ a{
 	margin: 0px;
 }
 body{
-	background: #444444;
+	background-image: url(metal.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
 	font-size: 18px;
 }
 footer{
@@ -71,6 +73,12 @@ nav ul li a{
 	margin: 0 5%;
 	width: 90%;
 }
+#mid{
+	padding-top: 1em;
+}
+#top{
+	padding-top: 2em;
+}
 .section{
 	background: #EEEEEE;
 	border-radius: 0 0 5px 5px;
@@ -80,7 +88,7 @@ nav ul li a{
 }
 .section article{
 	background-image: url(auto.png);
-	background-position: 50% 50%;
+	background-position: 50% 60%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
 	border-right: 0.4em solid grey;
@@ -91,7 +99,7 @@ nav ul li a{
 }
 .section article p{
 	text-align: center;
-	margin: 0 30%;
+	margin: 0 10%;
 }
 .boton:hover{
 	background: darkgrey;
