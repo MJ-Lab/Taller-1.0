@@ -21,13 +21,13 @@ header{
 }
 nav{
 	background: black;
-	background-image: url(Logoboton2c.png);
+	background-image: url(Logoboton2d.png);
 	background-repeat: no-repeat;
 	background-position: 0% 25%;
-	border-bottom: solid 4px darkred;
+	border-bottom: solid 2px darkred;
 	border-top: solid 2px darkred;
 	margin: 0 10%;
-	padding: 0.3em;
+	padding: 0.4em 0 0.45em 0.33em;
 	position: relative;
 }
 nav ul{
