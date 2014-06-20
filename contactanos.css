@@ -18,10 +18,14 @@ header{
 }
 nav{
 	background: black;
+	background-image: url(Logoboton.png);
+	background-repeat: no-repeat;
+	background-position: 100% 45%;
 	border-bottom: solid 4px darkred;
 	border-top: solid 2px darkred;
 	margin: 0 10%;
 	padding: 0.3em;
+	position: relative;
 }
 nav ul{
 	display: inline;
@@ -40,6 +44,9 @@ nav ul li a{
 	text-decoration: none;
 	padding: 5px 6px;
 	margin: 0px;
+}
+#bot{
+	padding-top: 1em;
 }
 #der{
 	background: black;
@@ -66,17 +73,23 @@ nav ul li a{
 	margin: 0 5%;
 	width: 90%;
 }
+#mapa{
+	margin: 0% 12.5%;
+}
+#mid{
+	padding-bottom: 1em;
+}
+#top{
+	padding-top: 2em;
+}
 .section{
-	background: white;
+	background: #EEEEEE;
 	border-radius: 0 0 5px 5px;
 	height: 37em;
 	margin: 0 10%;
 	position: relative;
 }
 .section article{
-	background-image: url(auto4.png);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
 	border-right: 0.4em solid grey;
 	border-bottom: 0.3em solid black;
