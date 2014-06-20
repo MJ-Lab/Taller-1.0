@@ -21,9 +21,9 @@ header{
 }
 nav{
 	background: black;
-	background-image: url(Logoboton2c.png);
+	background-image: url(Logoboton2b.png);
 	background-repeat: no-repeat;
-	background-position: 0% 25%;
+	background-position: 0% 45%;
 	border-bottom: solid 4px darkred;
 	border-top: solid 2px darkred;
 	margin: 0 10%;
@@ -32,22 +32,21 @@ nav{
 }
 nav ul{
 	display: inline;
-	margin: 0px 0.5em;
+	margin: 0px;
 	padding: 0px;
 }
 nav ul li{
 	display: inline-block;
+	border: solid 2px darkred;
+	border-radius: 5px;
 	margin: 0;
-	padding: 0.1em 0;
+	padding: 0;
 }
 nav ul li a{
-	border: 2px solid transparent;
-	border-radius: 5px;	
-	margin: 0;
+	color: #EEEEEE;
 	text-decoration: none;
-}
-#contactanos{
-	padding: 0.2rem 3.7em;
+	padding: 5px 6px;
+	margin: 0px;
 }
 #der{
 	background: black;
@@ -58,9 +57,6 @@ nav ul li a{
 	left: 80.5%;
 	width: 19.5%;
 	height: 37em;
-}
-#inicio{
-	padding: 0.2rem 1.7em;
 }
 #izq{
 	background: black;
@@ -77,17 +73,8 @@ nav ul li a{
 	margin: 0 5%;
 	width: 90%;
 }
-#mid{
-	padding-top: 1em;
-}
-#precios{
-	padding: 0.2rem 5.15em;
-}
-#taller{
-	padding: 0.2rem 2.3em;	
-}
 #top{
-	padding-top: 2em;
+	padding-top: 1em;
 }
 .section{
 	background: #EEEEEE;
@@ -97,7 +84,7 @@ nav ul li a{
 	position: relative;
 }
 .section article{
-	background-image: url(auto5.png);
+	background-image: url(auto.png);
 	background-position: 50% 60%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
@@ -106,15 +93,20 @@ nav ul li a{
 	height: 36.7em;
 	margin: 0 19.5%;
 	width: 60%;
+	padding: 0;
 }
-.section article p{
-	text-align: center;
+.section article ul{
 	margin: 0 10%;
+	padding: 0;
+}
+.section article ul li p{
+	font-size: 17px;
 }
 .boton:hover{
-	box-shadow: 0px 0px 50px black;
+	background: darkgrey;
+	border-radius: solid 1px darkred;
+	box-shadow: rgba (255,0,0,0.5) 10px 10px 0px;
 }
 nav ul li a:hover{
 	color: black;
-	text-shadow: rgba(0,0,0,0.5) 0px 0px 50px;
 }
