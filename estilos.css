@@ -1,4 +1,5 @@
 a{
+	color: #EEEEEE;
 	margin: 0px;
 }
 body{
@@ -18,10 +19,14 @@ header{
 }
 nav{
 	background: black;
+	background-image: url(Logoboton.png);
+	background-repeat: no-repeat;
+	background-position: 100% 45%;
 	border-bottom: solid 4px darkred;
 	border-top: solid 2px darkred;
 	margin: 0 10%;
 	padding: 0.3em;
+	position: relative;
 }
 nav ul{
 	display: inline;
@@ -67,14 +72,14 @@ nav ul li a{
 	width: 90%;
 }
 .section{
-	background: white;
+	background: #EEEEEE;
 	border-radius: 0 0 5px 5px;
 	height: 37em;
 	margin: 0 10%;
 	position: relative;
 }
 .section article{
-	background-image: url(auto4.png);
+	background-image: url(auto.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	border-left: 0.4em solid grey;
